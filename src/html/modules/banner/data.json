@@ -1,0 +1,21 @@
+{
+  	"title": "Banner Title",
+	"slide": [
+		{
+			"src": "./assets/images/ferro.jpg",
+			"alt": "ferro"
+		},
+		{
+			"src": "./assets/images/sacit.bmp",
+			"alt": "sacit"
+		},
+		{
+			"src": "./assets/images/trafimet.bmp",
+			"alt": "trafimet"
+		},
+		{
+			"src": "./assets/images/trafimet-group.png",
+			"alt": "trafimet-group"
+		}
+	]
+}

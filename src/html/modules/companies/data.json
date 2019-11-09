@@ -1,0 +1,29 @@
+{
+	"title": "Kompanije sa kojima sarađujemo",
+	"mainCompanies": [{
+			"src": "../assets/images/sacit.bmp",
+			"title": "Trafimet"
+		},
+		{
+			"src": "../assets/images/trafimet.bmp",
+			"title": "Sacit"
+		}
+	],
+	"companies": [{
+			"src": "../assets/images/ferro.jpg",
+			"title": "Lorem ipsum"
+		},
+		{
+			"src": "../assets/images/sacit.bmp",
+			"title": "Lorem ipsum"
+		},
+		{
+			"src": "../assets/images/ferro.jpg",
+			"title": "Ferro"
+		},
+		{
+			"src": "../assets/images/sacit.bmp",
+			"title": "Lorem ipsum"
+		}
+	]
+}

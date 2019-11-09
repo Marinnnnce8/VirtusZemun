@@ -1,0 +1,31 @@
+<section class="companies-section">
+    <div class="wrap">
+        <h2>{{title}}</h2>
+    </div>
+    <div class="link-wrap">
+        <div class="wrap">
+            <div class="link-inner js-equal-heights-main">
+                {{#each mainCompanies}}
+                <div class="link-box">
+                    <div class="link-box--inner">
+                        <a href="javascript:;" aria-label="Click here to visit {{this.title}} page"></a>
+                        <img src="{{this.src}}" alt="{{this.title}}">
+                        <span class="js-equal-heights-item-main">{{this.title}}</span>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+            <div class="link-inner js-equal-heights">
+                {{#each companies}}
+                <div class="link-box link-box--half">
+                    <div class="link-box--inner">
+                        <a href="javascript:;" aria-label="Click here to visit {{this.title}} page"></a>
+                        <img src="{{this.src}}" alt="{{this.title}}">
+                        <span class="js-equal-heights-item">{{this.title}}</span>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,167 @@
+.header {
+	background: $white;
+	box-shadow: 0 -13px 11px 10px rgba($black, .5);
+	padding: 10px 0;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	@include breakpoint(phone) {
+		.wrap {
+			padding: 0 15px;
+		}
+	}
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__home {
+	font-size: 42px;
+	max-width: 200px;
+	z-index: 2;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	@include breakpoint(phone) {
+		padding-bottom: 10px;
+	}
+}
+
+.nav {
+	@include breakpoint(phone) {
+		background: $orange;
+		display: none;
+		position: absolute;
+		left: 0;
+		padding: 15px 0;
+		top: 100%;
+		width: 100%;
+	}
+}
+
+.nav__list {
+	display: flex;
+	justify-content: flex-end;
+
+	@include breakpoint(phone) {
+		display: block;
+		text-align: center;
+	}
+}
+
+.nav__item {
+	padding: 0 15px;
+	@include breakpoint(phone) {
+		padding: 10px;
+	}
+}
+
+.nav__link {
+	text-transform: uppercase;
+	color: $orange;
+	display: block;
+	font-size: 24px;
+	position: relative;
+	&::before {
+		background: $orange;
+		bottom: -3px;
+		content: '';
+		height: 2px;
+		left: 0;
+		opacity: 0;
+		position: absolute;
+		transition: .3s ease-in-out;
+		width: 100%;
+		z-index: 1;
+	}
+
+	@include hover {
+		&::before {
+			opacity: 1;
+		}
+	}
+	@include breakpoint(tablet) {
+		font-size: 22px;
+	}
+	@include breakpoint(phone) {
+		color: $white;
+	}
+}
+
+.hamburger-btn {
+	background: transparent;
+	border-radius: 0;
+	padding: 5px;
+	display: none;
+
+	@include breakpoint(phone) {
+		display: block;
+		position: absolute;
+		width: 32px;
+		height: 32px;
+		background: transparent;
+		right: 20px;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 3;
+
+		>span {
+			position: absolute;
+			left: 0;
+			width: 100%;
+			height: 2px;
+			background: $orange;
+			content: '';
+			top: 50%;
+			transform: translateY(-50%);
+			transition: .5s ease-in-out;
+
+			&::after,
+			&::before {
+				position: absolute;
+				left: 0;
+				width: 100%;
+				height: 2px;
+				background: $orange;
+				content: '';
+				transition: .5s ease-in-out;
+			}
+
+			&::after {
+				top: -10px;
+			}
+
+			&::before {
+				top: 10px;
+			}
+		}
+	}
+}
+
+.hamburger-btn--active {
+	>span {
+		background: transparent;
+
+		&::after,
+		&::before {
+			top: 0;
+		}
+
+		&::after {
+			transform: rotate(45deg);
+			left: 0;
+		}
+
+		&::before {
+			transform: rotate(-45deg);
+			right: 0;
+		}
+	}
+}

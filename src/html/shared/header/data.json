@@ -1,0 +1,21 @@
+{
+	"src": "./assets/images/logo.png",
+	"menu": [
+		{
+			"navTitle": "Početna",
+			"navLink": "/"
+		},
+		{
+			"navTitle": "O nama",
+			"navLink": "./o-nama"
+		},
+		{
+			"navTitle": "Jelovnik",
+			"navLink": "./jelovnik"
+		},
+		{
+			"navTitle": "Kontakt",
+			"navLink": "./kontakt"
+		}
+	]
+}
