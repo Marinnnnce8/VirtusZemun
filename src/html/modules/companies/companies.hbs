@@ -1,9 +1,10 @@
-<section class="companies-section">
+<section class="companies-section section">
     <div class="wrap">
         <h2>{{title}}</h2>
     </div>
     <div class="link-wrap">
         <div class="wrap">
+            {{#if mainCompanies}}
             <div class="link-inner js-equal-heights-main">
                 {{#each mainCompanies}}
                 <div class="link-box">
@@ -15,6 +16,7 @@
                 </div>
                 {{/each}}
             </div>
+            {{/if}}
             <div class="link-inner js-equal-heights">
                 {{#each companies}}
                 <div class="link-box link-box--half">

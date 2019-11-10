@@ -7,8 +7,8 @@
 
 @mixin font-styles {
 	font-family: 'svgicons';
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
@@ -26,16 +26,19 @@
 @function font-char($filename) {
 	$char: "";
 
-	@if $filename == ico-chevron-down {
+	@if $filename==ico-chevron-down {
 		$char: '\E001';
 	}
-	@if $filename == ico-dog {
+
+	@if $filename==ico-dog {
 		$char: '\E002';
 	}
-	@if $filename == ico-download {
+
+	@if $filename==ico-download {
 		$char: '\E003';
 	}
-	@if $filename == ico-share {
+
+	@if $filename==ico-share {
 		$char: '\E004';
 	}
 
@@ -46,27 +49,53 @@
 	&:#{$insert} {
 		@if $extend {
 			@extend %font;
-		} @else {
+		}
+
+		@else {
 			@include font-styles;
 		}
+
 		content: font-char($filename);
 	}
 }
 
-[class*='font-ico'] {
+[class*='font-ico'],
+[class^="icon-"],
+[class*=" icon-"] {
 	display: inline-block;
 }
 
 .font-ico-chevron-down {
 	@include font(ico-chevron-down);
 }
+
 .font-ico-dog {
 	@include font(ico-dog);
 }
+
 .font-ico-download {
 	@include font(ico-download);
 }
+
 .font-ico-share {
 	@include font(ico-share);
 }
 
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('../assets/fonts/icomoon.ttf?81vuev') format('truetype'),
+		url('../assets/fonts/icomoon.woff?81vuev') format('woff'),
+		url('../assets/fonts/icomoon.svg?81vuev#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+.icon-ico-email:before {
+	content: "\e900";
+}
+
+.icon-ico-pin:before {
+	content: "\e901";
+}

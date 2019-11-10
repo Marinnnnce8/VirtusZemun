@@ -6,7 +6,7 @@ button {
 	outline: none;
 	@include media-breakpoint-up(lg) {
 		&:focus {
-			outline: 1px dashed rgba($orange, .2);
+			outline: 1px dashed rgba($orange, .5);
 		}
 	}
 }

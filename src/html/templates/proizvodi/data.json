@@ -1,5 +1,5 @@
 {
-	"template": "index",
+	"template": "proizvodi",
 	"data": {
 		"header": {
 			">>": "shared/header/data.json"
@@ -12,16 +12,7 @@
 		},
 		"companies": {
 			">>": "modules/companies/data.json",
-			"title": "Kompanije sa kojima sarađujemo",
-			"mainCompanies": [{
-					"src": "../assets/images/sacit.bmp",
-					"title": "Trafimet"
-				},
-				{
-					"src": "../assets/images/trafimet.bmp",
-					"title": "Sacit"
-				}
-			],
+			"title": "Proizvodi",
 			"companies": [{
 					"src": "../assets/images/ferro.jpg",
 					"title": "Lorem ipsum"

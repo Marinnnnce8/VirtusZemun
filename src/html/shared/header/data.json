@@ -6,16 +6,12 @@
 			"navLink": "/"
 		},
 		{
-			"navTitle": "O nama",
+			"navTitle": "Proizvodi",
 			"navLink": "./o-nama"
 		},
 		{
-			"navTitle": "Jelovnik",
+			"navTitle": "Katalozi",
 			"navLink": "./jelovnik"
-		},
-		{
-			"navTitle": "Kontakt",
-			"navLink": "./kontakt"
 		}
 	]
 }
