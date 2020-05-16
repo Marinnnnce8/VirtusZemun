@@ -1,0 +1,35 @@
+{
+	"template": "trafimet",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+		},
+		"companies": {
+			">>": "modules/companies/data.json",
+			"title": "Trafimet proizvodi",
+			"companiesAddClass": "link-inner--third",
+			"companies": [{
+					"src": "./assets/images/mig_(gmaw)_torches.png",
+					"title": "Mig (GMAW) gorionici",
+					"url": "./mig-gmaw-torches.html",
+					"target": "_self"
+				},
+				{
+					"src": "./assets/images/t_system_torch.png",
+					"title": "Tig (GTAW) gorionici",
+					"url": "./tig-gtaw-torches.html",
+					"target": "_self"
+				},
+				{
+					"src": "./assets/images/trafimector.png",
+					"title": "Plasma cutting gorionici",
+					"url": "./plasma-cutting-torches.html",
+					"target": "_self"
+				}
+			]
+		}
+	}
+}

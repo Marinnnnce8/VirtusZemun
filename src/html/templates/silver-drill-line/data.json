@@ -1,0 +1,22 @@
+{
+	"template": "silver-drill-line",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+		},
+		"companies": {
+			">>": "modules/companies/data.json",
+			"title": "Silver-drill Line",
+			"companies": [{
+					"bckgImg": "./assets/images/silver_drill_line.png",
+					"title": "Weldon",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/420/",
+					"target": "_blank"
+				}
+			]
+		}
+	}
+}

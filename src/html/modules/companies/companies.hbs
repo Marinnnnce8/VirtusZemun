@@ -4,13 +4,34 @@
     </div>
     <div class="link-wrap">
         <div class="wrap">
+            {{#if mainCompanie}}
+            <div class="link-inner js-equal-heights-main {{companieAddClass}}">
+                {{#each mainCompanie}}
+                <div class="link-box link-box--full">
+                    <div class="link-box--inner">
+                        <a href="{{this.url}}" target="{{this.target}}"
+                            {{#if bckgImg}}style="background-image: url('{{this.bckgImg}}')" class="has-cover" {{/if}}
+                            aria-label="Click here to visit {{this.title}} page" rel="noopener" rel="noreferrer"></a>
+                        {{#if src}}
+                        <img src="{{this.src}}" alt="{{this.title}}">
+                        {{/if}}
+                        <span class="js-equal-heights-item-main">{{this.title}}</span>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+            {{/if}}
             {{#if mainCompanies}}
-            <div class="link-inner js-equal-heights-main">
+            <div class="link-inner js-equal-heights-main {{companiesAddClass}}">
                 {{#each mainCompanies}}
                 <div class="link-box">
                     <div class="link-box--inner">
-                        <a href="javascript:;" aria-label="Click here to visit {{this.title}} page"></a>
+                        <a href="{{this.url}}" target="{{this.target}}"
+                            {{#if bckgImg}}style="background-image: url('{{this.bckgImg}}')" class="has-cover" {{/if}}
+                            aria-label="Click here to visit {{this.title}} page" rel="noopener" rel="noreferrer"></a>
+                        {{#if src}}
                         <img src="{{this.src}}" alt="{{this.title}}">
+                        {{/if}}
                         <span class="js-equal-heights-item-main">{{this.title}}</span>
                     </div>
                 </div>
@@ -21,9 +42,13 @@
                 {{#each companies}}
                 <div class="link-box link-box--half">
                     <div class="link-box--inner">
-                        <a href="javascript:;" aria-label="Click here to visit {{this.title}} page"></a>
+                        <a href="{{this.url}}" target="{{this.target}}"
+                            {{#if bckgImg}}style="background-image: url('{{this.bckgImg}}')" class="has-cover" {{/if}}
+                            aria-label="Click here to visit {{this.title}} page" rel="noopener" rel="noreferrer"></a>
+                        {{#if src}}
                         <img src="{{this.src}}" alt="{{this.title}}">
-                        <span class="js-equal-heights-item">{{this.title}}</span>
+                        {{/if}}
+                        <span class="js-equal-heights-item">{{{this.title}}}</span>
                     </div>
                 </div>
                 {{/each}}

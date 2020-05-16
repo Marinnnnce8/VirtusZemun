@@ -1,0 +1,77 @@
+{
+	"template": "karnasch",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+		},
+		"companies": {
+			">>": "modules/companies/data.json",
+			"title": "Karnasch proizvodi",
+			"mainCompanies": [{
+					"bckgImg": "./assets/images/krunasta_glodala.png",
+					"title": "krunasta glodala",
+					"url": "./krunasta-glodala.html",
+					"target": "_self"
+				},
+				{
+					"bckgImg": "./assets/images/magnetne_busilice.PNG",
+					"title": "magnetne bušilice",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/1082/",
+					"target": "_blank"
+				}
+			],
+			"companies": [{
+					"bckgImg": "./assets/images/mills.png",
+					"title": "glodanje",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/10/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/drills.png",
+					"title": "bušenje",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/224/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/sinking.png",
+					"title": "dubljenje",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/630/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/grinding.png",
+					"title": "brušenje",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/676/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/sawing.png",
+					"title": "piljenje",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/822/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/magnetne_busilice.PNG",
+					"title": "mašine",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/1080/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/lubricants.png",
+					"title": "lubrikanti",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/1141/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/cutting_data.png",
+					"title": "rezanje - tehničke informacije",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/1150/",
+					"target": "_blank"
+				}
+			]
+		}
+	}
+}

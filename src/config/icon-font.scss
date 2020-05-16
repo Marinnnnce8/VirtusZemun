@@ -3,6 +3,7 @@
 	src: url('<%= fontPath %><%= fontName %>.woff2') format('woff2'),
 		url('<%= fontPath %><%= fontName %>.woff') format('woff'),
 		url('<%= fontPath %><%= fontName %>.ttf') format('truetype');
+		font-display: swap;
 }
 
 @mixin <%= cssClass%>-styles {

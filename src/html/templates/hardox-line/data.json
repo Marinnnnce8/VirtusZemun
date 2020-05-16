@@ -1,0 +1,22 @@
+{
+	"template": "hardox-line",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+		},
+		"companies": {
+			">>": "modules/companies/data.json",
+			"title": "Hardox Line",
+			"companies": [{
+					"bckgImg": "./assets/images/hardox_line.png",
+					"title": "Weldon",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/382/",
+					"target": "_blank"
+				}
+			]
+		}
+	}
+}

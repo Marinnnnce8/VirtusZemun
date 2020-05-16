@@ -1,0 +1,34 @@
+{
+	"template": "gold-drill-line",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+		},
+		"companies": {
+			">>": "modules/companies/data.json",
+			"title": "Gold-drill Line",
+			"companies": [{
+					"bckgImg": "./assets/images/gold_drill_line.png",
+					"title": "Weldon",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/404/",
+					"target": "_blank"
+                },
+                {
+					"bckgImg": "./assets/images/gold_drill_line.png",
+					"title": "Nitto",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/468/",
+					"target": "_blank"
+				},
+                {
+					"bckgImg": "./assets/images/gold_drill_line.png",
+					"title": "Fein",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/498/",
+					"target": "_blank"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"template": "mini-line",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+		},
+		"companies": {
+			">>": "modules/companies/data.json",
+			"title": "Mini Line",
+			"companies": [{
+					"bckgImg": "./assets/images/mini_line.png",
+					"title": "Weldon",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/426/",
+					"target": "_blank"
+				}
+			]
+		}
+	}
+}

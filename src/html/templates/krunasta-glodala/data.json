@@ -1,0 +1,101 @@
+{
+	"template": "krunasta-glodala",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+		},
+		"companies": {
+			">>": "modules/companies/data.json",
+			"title": "Krunasta glodala",
+			"companiesAddClass": "link-inner--third",
+			"companies": [{
+					"bckgImg": "./assets/images/silver_drill_line.png",
+					"title": "silver-drill line",
+					"url": "./silver-drill-line.html",
+					"target": "_self"
+				},
+				{
+					"bckgImg": "./assets/images/gold_drill_line.png",
+					"title": "gold-drill line",
+					"url": "./gold-drill-line.html",
+					"target": "_self"
+				},
+				{
+					"bckgImg": "./assets/images/hard_line.png",
+					"title": "hard line",
+					"url": "./hard-line.html",
+					"target": "_self"
+				},
+				{
+					"bckgImg": "./assets/images/hardox_line.png",
+					"title": "hardox-line",
+					"url": "./hardox-line.html",
+					"target": "_self"
+				},
+				{
+					"bckgImg": "./assets/images/blue_drill_line_pro.png",
+					"title": "blue-drill line pro",
+					"url": "./blue-drill-line-pro.html",
+					"target": "_self"
+				},
+				{
+					"bckgImg": "./assets/images/blue_drill_line.png",
+					"title": "blue-drill line",
+					"url": "./blue-drill-line.html",
+					"target": "_self"
+				},
+				{
+					"bckgImg": "./assets/images/mini_line.png",
+					"title": "mini-line",
+					"url": "./mini-line.html",
+					"target": "_self"
+				},
+				{
+					"bckgImg": "./assets/images/drill_line_pro.png",
+					"title": "drill-line pro",
+					"url": "./drill-line-pro.html",
+					"target": "_self"
+				},
+				{
+					"bckgImg": "./assets/images/rail_line_pro.png",
+					"title": "rail-line pro",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/502/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/rail_line.png",
+					"title": "rail-line",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/506/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/blue_drill_line_pro_rail.png",
+					"title": "blue-drill line pro rail",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/510/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/silver_drill_line_rail.png",
+					"title": "silver-drill line rail",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/514/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/drill_line_pro_rail.png",
+					"title": "drill-line pro rail",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/518/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/drill_line_rail.png",
+					"title": "drill-line rail",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/520/",
+					"target": "_blank"
+				}
+			]
+		}
+	}
+}

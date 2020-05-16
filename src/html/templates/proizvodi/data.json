@@ -7,27 +7,20 @@
 		"footer": {
 			">>": "shared/footer/data.json"
 		},
-		"banner": {
-			">>": "modules/banner/data.json"
-		},
 		"companies": {
 			">>": "modules/companies/data.json",
 			"title": "Proizvodi",
-			"companies": [{
-					"src": "../assets/images/ferro.jpg",
-					"title": "Lorem ipsum"
+			"mainCompanies": [{
+					"src": "./assets/images/trafimet.bmp",
+					"title": "trafimet",
+					"url": "./trafimet.html",
+					"target": "_self"
 				},
 				{
-					"src": "../assets/images/sacit.bmp",
-					"title": "Lorem ipsum"
-				},
-				{
-					"src": "../assets/images/ferro.jpg",
-					"title": "Ferro"
-				},
-				{
-					"src": "../assets/images/sacit.bmp",
-					"title": "Lorem ipsum"
+					"src": "./assets/images/karnasch.png",
+					"title": "karnasch",
+					"url": "./karnasch.html",
+					"target": "_self"
 				}
 			]
 		}

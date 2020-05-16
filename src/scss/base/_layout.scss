@@ -5,6 +5,10 @@ body {
 	overflow-x: hidden;
 	font-family: $font-default;
 	font-size: 14px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .section {

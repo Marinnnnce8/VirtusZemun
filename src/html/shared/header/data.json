@@ -7,11 +7,19 @@
 		},
 		{
 			"navTitle": "Proizvodi",
-			"navLink": "./o-nama"
+			"navLink": "./proizvodi.html"
 		},
 		{
 			"navTitle": "Katalozi",
-			"navLink": "./jelovnik"
+			"navLink": "./katalozi.html"
+		},
+		{
+			"navTitle": "ID Preduzeća",
+			"navLink": "./ID-preduzeca.html"
+		},
+		{
+			"navTitle": "Sertifikati",
+			"navLink": "./sertifikati.html"
 		}
 	]
 }

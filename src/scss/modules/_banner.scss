@@ -24,6 +24,9 @@
 
 .banner__slider {
 	position: relative;
+	.slick-slide>div {
+		line-height: 0;
+	}
 }
 
 .banner__slide {
@@ -32,13 +35,5 @@
 	align-items: center;
 	position: relative;
 	min-height: 100vh;
-	img {
-		display: block;
-		height: auto;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		width: 60%;
-	}
 }
+

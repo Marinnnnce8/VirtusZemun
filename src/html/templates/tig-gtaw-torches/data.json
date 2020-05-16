@@ -1,0 +1,46 @@
+{
+	"template": "tig-gtaw-torches",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+		},
+		"companies": {
+			">>": "modules/companies/data.json",
+			"title": "Tig (GTAW) Torches",
+			"companies": [{
+					"src": "./assets/images/t_system_torch.png",
+					"title": "T-system&reg;",
+					"url": "http://www.trafimet.com/tig-gtaw-torches/t-system-the-new-configurable-tig-system/",
+					"target": "_blank"
+                },
+                {
+					"src": "./assets/images/tpro_torch.png",
+					"title": "TPRO",
+					"url": "http://www.trafimet.com/tig-gtaw-torches/tpro-torch-for-tig-welding/",
+					"target": "_blank"
+				},
+                {
+					"src": "./assets/images/ergotig_torch.png",
+					"title": "ERGOTIG",
+					"url": "http://www.trafimet.com/tig-gtaw-torches/ergotig-tig-welding-torch/",
+					"target": "_blank"
+				},
+                {
+					"src": "./assets/images/top_torch.png",
+					"title": "TOP",
+					"url": "http://www.trafimet.com/tig-gtaw-torches/top-professional-tig-welding-torch-with-push-lever/",
+					"target": "_blank"
+				},
+                {
+					"src": "./assets/images/classic_torch.png",
+					"title": "Classic",
+					"url": "http://www.trafimet.com/tig-gtaw-torches/classic-tig-welding-torch-with-push-lever/",
+					"target": "_blank"
+				}
+			]
+		}
+	}
+}

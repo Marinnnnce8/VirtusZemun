@@ -1,0 +1,22 @@
+{
+	"template": "ID-preduzeca",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+        },
+        "companies": {
+			">>": "modules/companies/data.json",
+			"title": "ID Preduzeća",
+			"companies": [{
+					"src": "./assets/images/logo.png",
+					"title": "ID Preduzeća",
+					"url": "./assets/pdf/ID-preduzeca.pdf",
+					"target": "_blank"
+				}
+			]
+		}
+	}
+}

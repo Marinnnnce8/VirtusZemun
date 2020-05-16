@@ -2,20 +2,24 @@
   	"title": "Banner Title",
 	"slide": [
 		{
-			"src": "./assets/images/ferro.jpg",
-			"alt": "ferro"
+			"src": "./assets/images/slider-1.jpg",
+			"alt": "karnasch"
 		},
 		{
-			"src": "./assets/images/sacit.bmp",
-			"alt": "sacit"
+			"src": "./assets/images/slider-2.png",
+			"alt": "karnasch"
 		},
 		{
-			"src": "./assets/images/trafimet.bmp",
+			"src": "./assets/images/slider-3.jpg",
 			"alt": "trafimet"
 		},
 		{
-			"src": "./assets/images/trafimet-group.png",
-			"alt": "trafimet-group"
+			"src": "./assets/images/slider-4.jpg",
+			"alt": "trafimet"
+		},
+		{
+			"src": "./assets/images/slider-5.jpg",
+			"alt": "trafimet"
 		}
 	]
 }

@@ -1,0 +1,31 @@
+{
+	"template": "teleoptik",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+		},
+		"companies": {
+			">>": "modules/companies/data.json",
+			"title": "Teleoptik proizvodi",
+			"companiesAddClass": "link-inner--third",
+			"companies": [{
+					"src": "./assets/images/trafimet.bmp",
+					"title": "trafimet",
+					"url": "./trafimet.html",
+					"target": "_self"
+				},
+				{
+					"src": "./assets/images/karnasch.png",
+					"title": "karnasch"
+				},
+				{
+					"src": "./assets/images/teleoptik.gif",
+					"title": "teleoptik"
+				}
+			]
+		}
+	}
+}

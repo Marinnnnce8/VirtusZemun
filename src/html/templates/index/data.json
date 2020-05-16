@@ -14,29 +14,47 @@
 			">>": "modules/companies/data.json",
 			"title": "Kompanije sa kojima sarađujemo",
 			"mainCompanies": [{
-					"src": "../assets/images/sacit.bmp",
-					"title": "Trafimet"
+					"url": "https://karnasch.tools/de",
+					"src": "./assets/images/karnasch.png",
+					"title": "Karnasch",
+					"target": "_blank"
 				},
 				{
-					"src": "../assets/images/trafimet.bmp",
-					"title": "Sacit"
+					"url": "http://www.trafimetgroup.com/",
+					"src": "./assets/images/trafimet.bmp",
+					"title": "Trafimet",
+					"target": "_blank"
 				}
 			],
 			"companies": [{
-					"src": "../assets/images/ferro.jpg",
-					"title": "Lorem ipsum"
+					"url": "http://www.sacit.com/",
+					"src": "./assets/images/sacit.bmp",
+					"title": "Sacit",
+					"target": "_blank"
 				},
 				{
-					"src": "../assets/images/sacit.bmp",
-					"title": "Lorem ipsum"
+					"url": "http://www.unior.com/",
+					"src": "./assets/images/unior.png",
+					"title": "Unior tools",
+					"target": "_blank"
 				},
 				{
-					"src": "../assets/images/ferro.jpg",
-					"title": "Ferro"
+					"url": "https://www.bosch-professional.com/rs/sr/",
+					"src": "./assets/images/bosch.jpg",
+					"title": "Bosch",
+					"target": "_blank"
 				},
 				{
-					"src": "../assets/images/sacit.bmp",
-					"title": "Lorem ipsum"
+					"url": "http://teleoptik.co.rs/",
+					"src": "./assets/images/teleoptik.gif",
+					"title": "Teleoptik",
+					"target": "_blank"
+				},
+				{
+					"url": "https://www.klingspor.rs/",
+					"src": "./assets/images/klingspor.png",
+					"title": "Klingspor",
+					"target": "_blank"
 				}
 			]
 		}

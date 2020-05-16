@@ -1,0 +1,22 @@
+{
+	"template": "blue-drill-line-pro",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+		},
+		"companies": {
+			">>": "modules/companies/data.json",
+			"title": "Blue-drill Line Pro",
+			"companies": [{
+					"bckgImg": "./assets/images/blue_drill_line_pro.png",
+					"title": "Weldon",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/388/",
+					"target": "_blank"
+				}
+			]
+		}
+	}
+}

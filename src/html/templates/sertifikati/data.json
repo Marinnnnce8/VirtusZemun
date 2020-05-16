@@ -1,0 +1,22 @@
+{
+	"template": "sertifikati",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+        },
+        "companies": {
+			">>": "modules/companies/data.json",
+			"title": "Sertifikati",
+			"companies": [{
+					"src": "./assets/images/karnasch.png",
+					"title": "Karnasch sertifikat",
+					"url": "./assets/pdf/karnasch-sert-1.pdf",
+					"target": "_blank"
+				}
+			]
+		}
+	}
+}

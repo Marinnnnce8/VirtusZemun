@@ -1,40 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 
 <head>
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="telephone=no" />
 	<meta charset="utf-8">
 	<meta name="author" content="Marina Tatic">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<meta name="description" content="Prodaja građevinskih mašina i opreme.">
+	<meta name="keywords" content="Virtus, Zemun, prodaja, građevinarstvo, mašine, alati, oprema">
 	<meta name="theme-color" content="#f26722">
-	<link rel="canonical" href="http://lanostracasa.rs">
+	<link rel="canonical" href="http://www.virtuszemun.com/">
 
-	{{#if production}}
-	<link rel="preconnect" href="https://www.googletagmanager.com">
-	<link rel="dns-prefetch" href="https://www.googletagmanager.com">
-	{{else}}
-	<meta name="robots" content="noindex, nofollow">
-	<meta name="googlebot" content="noindex, nofollow">
-	{{/if}}
+	<meta name="robots" content="index, follow">
+	<meta name="googlebot" content="index, follow">
 
 	<!-- main css file -->
 	<link rel="stylesheet" href="css/style.min.css">
-
-	{{#if production}}
-	<!-- Google Tag Manager -->
-	<script>(function (w, d, s, l, i) {
-			w[l] = w[l] || [];
-			w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-			var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-			j.async = true;
-			j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'XXX-XXXXXX');</script>
-	<!-- End Google Tag Manager -->
-	{{/if}}
 
 	<title>Virtus Zemun</title>
 	<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
@@ -47,18 +29,8 @@
 </head>
 
 <body>
-	{{#if production}}
-	<!-- Google Tag Manager -->
-	<noscript>
-		<iframe src="//www.googletagmanager.com/ns.html?id=XXX-XXXXXX" height="0" width="0"
-			style="display:none;visibility:hidden"></iframe>
-	</noscript>
-	<!-- End Google Tag Manager -->
-	{{/if}}
-
 	{{#> template-content}}
 	{{/template-content}}
-	<!-- global js file -->
 	<script src="js/global.min.js"></script>
 </body>
 

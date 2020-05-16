@@ -60,8 +60,8 @@
 
 	a,
 	span {
-		color: $white;
-		font-size: 18px;
+		color: $brown;
+		font-size: 20px;
 	}
 
 	span {
@@ -82,7 +82,7 @@
 		position: relative;
 
 		&::after {
-			background: $white;
+			background: $brown;
 			bottom: -3px;
 			content: '';
 			height: 1px;

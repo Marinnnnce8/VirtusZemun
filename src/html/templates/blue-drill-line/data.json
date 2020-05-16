@@ -1,0 +1,34 @@
+{
+	"template": "blue-drill-line",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+		},
+		"companies": {
+			">>": "modules/companies/data.json",
+			"title": "Blue-drill Line",
+			"companies": [{
+					"bckgImg": "./assets/images/blue_drill_line.png",
+					"title": "Weldon",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/394/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/blue_drill_line.png",
+					"title": "Nitto",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/452/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/blue_drill_line.png",
+					"title": "Fein",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/494/",
+					"target": "_blank"
+				}
+			]
+		}
+	}
+}

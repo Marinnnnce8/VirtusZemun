@@ -1,0 +1,46 @@
+{
+	"template": "mig-gmaw-torches",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+		},
+		"companies": {
+			">>": "modules/companies/data.json",
+			"title": "Mig (GMAW) gorionici",
+			"mainCompanie": [{
+				"src": "./assets/images/ergoplus_torch.png",
+				"title": "ERGOPLUS",
+				"url": "http://www.trafimet.com/mig-gmaw-torches/ergoplus/",
+				"target": "_blank"
+			}],
+			"companies": [{
+					"src": "./assets/images/mig_(gmaw)_torches.png",
+					"title": "M-system&reg;",
+					"url": "http://www.trafimet.com/mig-gmaw-torches/m-system-mig-gmaw-torches/",
+					"target": "_blank"
+				},
+				{
+					"src": "./assets/images/tmax_torch.png",
+					"title": "TMAX",
+					"url": "http://www.trafimet.com/mig-gmaw-torches/tmax-professional-mig-mag-welding-torch/",
+					"target": "_blank"
+				},
+				{
+					"src": "./assets/images/tplus_torch.png",
+					"title": "TPLUS",
+					"url": "http://www.trafimet.com/mig-gmaw-torches/tplus-mig-mag-professional-welding-torch/",
+					"target": "_blank"
+				},
+				{
+					"bckgImg": "./assets/images/fume_extraction_torches.png",
+					"title": "Fume extraction gorionici",
+					"url": "http://www.trafimet.com/welding-systems/trafimet-fume-extraction-system/",
+					"target": "_blank"
+				}
+			]
+		}
+	}
+}

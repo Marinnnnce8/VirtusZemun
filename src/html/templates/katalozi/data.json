@@ -7,27 +7,52 @@
 		"footer": {
 			">>": "shared/footer/data.json"
 		},
-		"banner": {
-			">>": "modules/banner/data.json"
-		},
 		"companies": {
 			">>": "modules/companies/data.json",
 			"title": "Katalozi",
+			"companiesAddClass": "link-inner--third",
+			"mainCompanies": [{
+					"src": "./assets/images/karnasch.png",
+					"title": "karnasch",
+					"url": "https://karnasch.tools/mediafiles/blaetterkatalog/katalog_gk32_v5/",
+					"target": "_blank"
+				},
+				{
+					"src": "./assets/images/trafimet.bmp",
+					"title": "trafimet",
+					"url": "https://fr.zone-secure.net/89196/820641/#page=1",
+					"target": "_blank"
+				},
+				{
+					"src": "./assets/images/sacit.bmp",
+					"title": "sacit",
+					"url": "https://fr.zone-secure.net/89196/820632/#page=1",
+					"target": "_blank"
+				}
+			],
 			"companies": [{
-					"src": "../assets/images/ferro.jpg",
-					"title": "Lorem ipsum"
+					"src": "./assets/images/bosch.jpg",
+					"title": "bosch",
+					"url": "./assets/pdf/bosch.pdf",
+					"target": "_blank"
 				},
 				{
-					"src": "../assets/images/sacit.bmp",
-					"title": "Lorem ipsum"
+					"src": "./assets/images/unior.png",
+					"title": "unior tools",
+					"url": "https://uniortools.com/files/assets/Uploads/Catalogues/mc-hr-628194_lowres.pdf",
+					"target": "_blank"
 				},
 				{
-					"src": "../assets/images/ferro.jpg",
-					"title": "Ferro"
+					"src": "./assets/images/klingspor.png",
+					"title": "klingspor",
+					"url": "http://www.lea-internacional.rs/cenovnici/klingspor/Klingspor_2019.pdf",
+					"target": "_blank"
 				},
 				{
-					"src": "../assets/images/sacit.bmp",
-					"title": "Lorem ipsum"
+					"src": "./assets/images/teleoptik.gif",
+					"title": "teleoptik",
+					"url": "http://teleoptik.co.rs/Image/Teleoptik%20kat%202017%20za%20sajt.pdf",
+					"target": "_blank"
 				}
 			]
 		}

@@ -1,0 +1,41 @@
+{
+	"template": "plasma-cutting-torches",
+	"data": {
+		"header": {
+			">>": "shared/header/data.json"
+		},
+		"footer": {
+			">>": "shared/footer/data.json"
+		},
+		"companies": {
+			">>": "modules/companies/data.json",
+			"title": "Plasma Cutting Torches",
+			"companiesAddClass": "link-inner--third",
+			"companies": [{
+					"src": "./assets/images/serie_zeta_nera.png",
+					"title": "Serie zeta&reg;",
+					"url": "http://www.trafimet.com/plasma-cutting-torches/zeta-series-plasma-cutting-torches/",
+					"target": "_blank"
+				},
+				{
+					"src": "./assets/images/ergocut_s.png",
+					"title": "Ergocut s",
+					"url": "http://www.trafimet.com/plasma-cutting-torches/ergocut-s-plasma-cutting-torch/",
+					"target": "_blank"
+				},
+				{
+					"src": "./assets/images/ergocut_a.png",
+					"title": "Ergocut a",
+					"url": "http://www.trafimet.com/plasma-cutting-torches/ergocut-a-plasma-cutting-torch-with-hf-function/",
+					"target": "_blank"
+				},
+				{
+					"src": "./assets/images/trafimector.png",
+					"title": "Trafimector&reg;",
+					"url": "http://www.trafimet.com/plasma-cutting-torches/trafimector-centralized-connection-for-plasma-cutting-torches/",
+					"target": "_blank"
+				}
+			]
+		}
+	}
+}
