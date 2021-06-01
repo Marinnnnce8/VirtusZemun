@@ -9,7 +9,6 @@
 	<meta name="author" content="Marina Tatic">
 	<meta name="description" content="Prodaja građevinskih mašina i opreme.">
 	<meta name="keywords" content="Virtus, Zemun, prodaja, građevinarstvo, mašine, alati, oprema">
-	<meta name="theme-color" content="#f26722">
 	<link rel="canonical" href="http://www.virtuszemun.com/">
 
 	<meta name="robots" content="index, follow">
@@ -22,7 +21,7 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
-	<link rel="manifest" href="./assets/favicon/site.webmanifest">
+	<link rel="manifest" href="./site.webmanifest">
 	<link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
@@ -32,6 +31,18 @@
 	{{#> template-content}}
 	{{/template-content}}
 	<script src="js/global.min.js"></script>
+		<script>
+		if ('serviceWorker' in navigator) {
+			console.log('CLIENT: service worker registration in progress.');
+			navigator.serviceWorker.register('./sw.js').then(function () {
+				console.log('CLIENT: service worker registration complete.');
+			}, function () {
+				console.log('CLIENT: service worker registration failure.');
+			});
+		} else {
+			console.log('CLIENT: service worker is not supported.');
+		}
+	</script>
 </body>
 
 </html>
